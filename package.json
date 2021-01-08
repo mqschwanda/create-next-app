@@ -1,0 +1,21 @@
+{
+  "name": "create-next-app",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:mqschwanda/create-next-app.git",
+  "author": "mqschwanda <mqschwanda@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "app",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "yarn workspace app dev",
+    "build": "yarn workspace app build",
+    "start": "yarn workspace app start",
+    "type-check": "yarn workspace app type-check",
+    "lint": "yarn workspace app lint",
+    "format": "yarn workspace app format"
+  }
+}
