@@ -11,11 +11,11 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "yarn workspace app dev",
-    "build": "yarn workspace app build",
-    "start": "yarn workspace app start",
-    "type-check": "yarn workspace app type-check",
-    "lint": "yarn workspace app lint",
-    "format": "yarn workspace app format"
+    "dev": "yarn workspace @create-next-app/app dev",
+    "build": "yarn workspace @create-next-app/app build",
+    "start": "yarn workspace @create-next-app/app start",
+    "type-check": "yarn workspace @create-next-app/app type-check",
+    "lint": "yarn workspace @create-next-app/app lint",
+    "format": "yarn workspace @create-next-app/app format"
   }
 }

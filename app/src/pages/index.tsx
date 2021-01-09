@@ -2,6 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 
 import Title from '@/components/Title';
+import Footer from '@/components/Footer';
 
 const Home: React.FC = () => (
   <div className="container">
@@ -50,11 +51,7 @@ const Home: React.FC = () => (
       </div>
     </main>
 
-    <footer>
-      <a href="https://zeit.co" target="_blank" rel="noopener noreferrer">
-        Powered by <img src="/zeit.svg" alt="ZEIT Logo" />
-      </a>
-    </footer>
+    <Footer />
 
     <style jsx>
       {`

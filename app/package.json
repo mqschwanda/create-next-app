@@ -1,5 +1,5 @@
 {
-  "name": "app",
+  "name": "@create-next-app/app",
   "description": "A TypeScript starter for Next.js that includes all you need to build amazing projects",
   "version": "1.0.0",
   "private": true,

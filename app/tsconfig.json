@@ -18,6 +18,9 @@
       "@/*": ["./*"]
     }
   },
+  "references": [
+    { "path": "../packages/components" },
+  ],
   "exclude": ["node_modules"],
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
 }
